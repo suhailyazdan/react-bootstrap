@@ -5,7 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter basename={window.location.pathname || ''}>
+  // <BrowserRouter basename={window.location.pathname || ''}>
+  <BrowserRouter>
       <Roots />
   </BrowserRouter>,
   document.getElementById('root')
